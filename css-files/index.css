@@ -5,7 +5,7 @@
 }
 /* Header part */
 .banner{
-    background-image: url('/images/banner/banner1.png');
+    background-image: url("/images/banner/banner1.png");
     background-repeat: no-repeat;
     height: 808px;
     width: 1600px;
@@ -72,7 +72,7 @@
     margin: 130px 230px;
     background-blend-mode:multiply;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to right, #F15B22, white) , url('/images/watch.png');
+    background-image: linear-gradient(to right, #F15B22, white) , url("/images/watch.png");
     border-radius: 8px;
     width: 1140px;
     height: 300px;
