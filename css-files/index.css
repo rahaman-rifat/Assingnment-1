@@ -1,0 +1,141 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* Header part */
+.banner{
+    background-image: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    height: 808px;
+    width: 1600px;
+}
+.banner-info{
+   text-align: right;
+   margin-right: 230px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px ;
+    padding-top: 216px;
+}
+
+.common-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    /* width: 494px;
+    height: 78px; */
+    margin-bottom: 32px;
+}
+.primary-button{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    border-style: none;
+}
+/* Failure section */
+.failure{
+    margin-top: 130px;
+    display: flex;
+    gap: 87px;
+}
+.failure-items{
+    margin-top: 240px;
+}
+.common-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+/* My plans section */
+.my-plans{
+    margin-left: 230px;
+}
+.my-plans > .common-title{
+    text-align: center;
+    margin-bottom: 56px;
+}
+.plan-description{
+    display: flex;
+    gap: 86px;
+}
+/* gradient section */
+.gradient{
+    margin: 130px 230px;
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #F15B22, white) , url('/images/watch.png');
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+}
+.secondary-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-bottom: 24px;
+}
+.secondary-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-left: 64px;
+    padding: 20px 36px;
+}
+/* footer part */
+.end-part{
+    background: #151414;
+    height: 808px;
+    width: 1600px;
+    display: flex;
+    gap: 330px;
+    padding-top: 130px;
+    padding-left: 230px;
+}
+.future{
+   
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+footer img{
+    padding-right: 20px;
+}
+.subscribe{
+    text-align: left;
+}
+input{
+    width: 325px;
+    background-color: #151414;
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 20px;
+    margin-bottom: 12px;
+}
+.subscribe .secondary-button{
+    margin: 0;
+
+}
